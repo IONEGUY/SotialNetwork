@@ -7,7 +7,7 @@ namespace SotialNetwork.Api
 {
     public class Constants
     {
-        public static TimeSpan AccessTokenExpireTimeSpan = TimeSpan.FromMinutes(1);
-        public static TimeSpan RefreshTokenExpireTimeSpan = TimeSpan.FromMinutes(2);
+        public static TimeSpan AccessTokenExpireTimeSpan = TimeSpan.FromHours(3);
+        public static TimeSpan RefreshTokenExpireTimeSpan = TimeSpan.FromDays(3);
     }
 }

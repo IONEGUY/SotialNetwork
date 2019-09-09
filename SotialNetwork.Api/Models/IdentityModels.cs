@@ -16,6 +16,7 @@ namespace SotialNetwork.Api.Models
         public ApplicationUser()
         {
             Id = Guid.NewGuid();
+            AccountCreationDate = DateTime.Now;
         }
 
         public string Firstname { get; set; }
@@ -27,8 +28,7 @@ namespace SotialNetwork.Api.Models
 
         public bool Deleted { get; set; }
 
-        [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
-        public DateTime AccountCreationDate { get; set; } = DateTime.Now;
+        public DateTime AccountCreationDate { get; set; }
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser, Guid> manager, string authenticationType)
         {
