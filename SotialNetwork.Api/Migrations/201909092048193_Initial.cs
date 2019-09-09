@@ -1,9 +1,9 @@
-namespace WebApplication2.Migrations
+namespace SotialNetwork.Api.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class LoginAdded : DbMigration
+    public partial class Initial : DbMigration
     {
         public override void Up()
         {

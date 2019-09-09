@@ -1,4 +1,4 @@
-namespace WebApplication2.Migrations
+namespace SotialNetwork.Api.Migrations
 {
     using System;
     using System.Data.Entity;

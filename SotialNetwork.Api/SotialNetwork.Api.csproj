@@ -13,8 +13,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WebApplication2</RootNamespace>
-    <AssemblyName>WebApplication2</AssemblyName>
+    <RootNamespace>SotialNetwork.Api</RootNamespace>
+    <AssemblyName>SotialNetwork.Api</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -267,13 +267,9 @@
     </Compile>
     <Compile Include="Managers\IRefreshTokenManager.cs" />
     <Compile Include="Managers\RefreshTokenManager.cs" />
-    <Compile Include="Migrations\201909092015110_Login-Added.cs" />
-    <Compile Include="Migrations\201909092015110_Login-Added.Designer.cs">
-      <DependentUpon>201909092015110_Login-Added.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201909092026026_Login-Added1.cs" />
-    <Compile Include="Migrations\201909092026026_Login-Added1.Designer.cs">
-      <DependentUpon>201909092026026_Login-Added1.cs</DependentUpon>
+    <Compile Include="Migrations\201909092048193_Initial.cs" />
+    <Compile Include="Migrations\201909092048193_Initial.Designer.cs">
+      <DependentUpon>201909092048193_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
@@ -318,11 +314,8 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201909092015110_Login-Added.resx">
-      <DependentUpon>201909092015110_Login-Added.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201909092026026_Login-Added1.resx">
-      <DependentUpon>201909092026026_Login-Added1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201909092048193_Initial.resx">
+      <DependentUpon>201909092048193_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
